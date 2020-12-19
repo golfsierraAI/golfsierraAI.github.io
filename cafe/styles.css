@@ -1,0 +1,274 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden
+}
+h1{
+    font-size: 40px;
+}
+ul {
+	display: inline-block;
+	background-color: transparent;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+li {
+	display: inline-block;
+	padding: 20px 50px;
+}
+li a {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: "Montserrat", sans-serif;
+	color: #87d4c5;
+}
+a:hover {
+	text-decoration: none;
+	font-size: 31px;
+	font-family: "Montserrat", sans-serif;
+	color: #87d4c5;
+}
+.row1 {
+	text-align: center;
+}
+.page1 {
+	padding-bottom: 200px;
+}
+.btn {
+	padding: 20px 40px;
+	background-color: #2bb2bb;
+	border: 0ch;
+	margin-top: 50px;
+}
+.page1 {
+	background-color: #204051;
+}
+.page2
+{
+    background-color: #1b262c;
+}
+.image2 {
+    width: 600px;
+    margin: 50px;
+    height: 700px;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.page2h1
+{
+    color: white;
+     text-align: center;
+     margin-top: 200px;
+}
+.page2h3
+{
+    color: white; 
+    text-align: center; 
+    padding-bottom: 50px;
+}
+.imagepage3
+{
+    z-index: 1;
+    border-radius: 80%;
+    float: right;
+    width: 600px;
+    position: absolute;
+    top: 150px;
+}
+.page3h1
+{
+    color: white;
+    margin-top: 200px;
+}
+.page3h3
+{
+    color: white;
+}
+.curved-div {
+	background: #1b262c;
+	color: black;
+    text-align: center;
+    z-index: -1;
+}
+.curved-div1 {
+	background: orange;
+	color:black;
+    text-align: center;
+    z-index: -1;
+}
+.imagepage4-2
+{
+    border-radius: 50%;
+    width: 500px;
+    margin-top: 100px;
+    z-index: 1;
+    position: absolute;
+    top: 100px;
+}
+.imagepage4
+{
+    border-radius: 50%;
+    width: 500px;
+    z-index: 1;
+}
+.page5
+{
+    background-color: #1b262c;
+    padding-bottom: 300px;
+}
+
+.page5h1
+{
+    color:white;
+    font-size: 2rem;
+    text-align: center;
+}
+.page6,.page7
+{
+    background-color:#1b262c;
+    padding-bottom: 10%;
+    padding-top: 100px;
+}
+.card
+{
+    margin: auto;
+    margin-bottom: 50px;
+    border: none;
+    width: 18rem;
+}
+.card-text
+{
+    background-color: #1b262c ;
+    color: #eeeeee;
+    font-size: 20px;
+    text-align: left;
+}
+.card-body
+{
+    background-color: #1b262c ;
+}
+.page8
+{
+    padding: 100px 0;
+}
+.imagepage8
+{
+    border-radius: 50%;
+    width: 600px;
+    z-index: 1;
+    margin-left: 100px;
+
+}
+.page8h1
+    {
+        color: white;margin-top: 100px;text-align: left;
+
+    }
+#footer{
+    background-color: #222831;
+    padding: 70px;
+    text-align: center;
+}
+
+.footer-a{
+    color: beige;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.footer-a:hover {
+    color: #f3c623;
+}
+
+.social-icon{
+    color: beige;
+    margin: 20px 10px;
+}
+#flip{
+    text-align: center;
+    background-color: #204051;
+    border: solid 1px  #204051;
+    margin: 0;
+  }
+ #panel {
+    text-align: center;
+    background-color: #204051;
+    border: solid 1px  #204051;
+    margin: 0;
+    display: none;
+  }
+  @media only screen and (max-width: 1026px) {
+    .imagepage3,.imagepage4-2 {
+        display: none;
+
+    }
+    .imagepage8
+    {
+        border-radius: 50%;
+        width: 300px;
+        display: block;
+        margin: auto;
+        
+    }
+    .row8
+    {
+        text-align: center;
+       
+    }
+    .page8h1 {
+        text-align: center;
+        font-size: 30px;
+
+    }
+    .page8h3
+    {
+        font-size: 20px;
+    }
+    .card
+{
+    margin: auto;
+    margin-bottom: 50px;
+    border: none;
+    width: 22rem;
+    
+}
+.image2 {
+    width: 500px;
+    margin: 50px;
+    height: 700px;
+    margin-top: 100px;
+    text-align: center;
+
+}
+.page2h1
+{
+    color: white;
+     text-align: center;
+     margin-top: 50px;
+     padding-bottom: 50px;
+}
+.page2h3
+{
+    color: white; 
+    text-align: center; 
+    width: 50%;
+    margin: auto;
+
+}
+.page3h1
+{
+    color: white;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    
+}
+.page3h3
+{
+    color: white;
+    padding-bottom: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+    }

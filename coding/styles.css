@@ -1,0 +1,56 @@
+body {
+	overflow-x: hidden !important;
+	background-image: linear-gradient(90 deg, #000, lightgrey) !important;
+	margin: 0;
+	font-family: "Open Sans", sans-serif !important;
+
+	padding: 0;
+}
+
+.row1 {
+	padding: 0 !important;
+}
+
+.editor .row-6 {
+	padding-right: 0 !important;
+	padding-bottom: 0%;
+}
+textarea {
+	overflow-y: hidden;
+	resize: vertical;
+}
+h3 {
+	background-color: #045762;
+	margin-bottom: 0% !important;
+	padding: 1% 0;
+	color: white;
+	text-align: center;
+}
+
+.row2 {
+	text-align: center;
+}
+
+iframe {
+	height: 100%;
+	width: 100%;
+}
+.text textarea {
+	width: 100%;
+	height: 100%;
+}
+.button {
+	padding: 5px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	background-color: #6155a6;
+	border: none !important;
+}
+.button:active {
+	background-color: #c9cbff;
+	border: none;
+	color: #000;
+}
