@@ -11,7 +11,7 @@ body {
 	padding: 0 !important;
 }
 
-.editor .row-6 {
+.editor .row-4 {
 	padding-right: 0 !important;
 	padding-bottom: 0%;
 }
@@ -40,6 +40,7 @@ iframe {
 	width: 100%;
 	height: 100%;
 }
+
 .button {
 	padding: 5px;
 	font-size: 24px;
